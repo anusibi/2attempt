@@ -1,1 +1,47 @@
-# 2attempt
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>just for fun</title>
+        <style>
+            body {margin:0 auto;}
+            
+            .navbar {
+              overflow: hidden;
+              background-color: #333;
+              position: fixed;
+              top: 0;
+              width: 100%;
+            }
+            
+            .navbar a {
+              float: left;
+              display: block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+            
+            .navbar a:hover {
+              background: #ddd;
+              color: black;
+            }
+            .container{margin: 0 auto;
+            font-size: 35px;
+            margin-top: 78px;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="container">
+            <h1 align="center">welcome to this page</h1>
+          </div>
+        
+    </body>
+</html>
